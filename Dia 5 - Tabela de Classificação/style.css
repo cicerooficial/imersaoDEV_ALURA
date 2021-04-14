@@ -1,0 +1,98 @@
+
+* {
+    text-align: center;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    min-height: 400px;
+    background-image: url('https://htesports.com.br/wp-content/uploads/2018/04/rsz-taca-brasileirao-lucas-figueiredo-cbf1521244286923-7148900134.png');
+    background-color: #111;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+}
+
+.page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+}
+
+.page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+.page-logo {
+    width: 200px;
+}
+
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+table {
+    border: 2px solid white;
+    border-collapse: collapse;
+}
+
+h1 {
+    color: white;
+}
+
+table th{
+  background-color:black;
+  color:white;
+  border: solid 2px white;
+}
+
+tr, td {
+   border: solid 2px white;
+   color: white;
+}
+
+img {
+  max-width:15%;
+  max-height:10%;
+  width: auto;
+  height: auto;
+}
+
+td button{
+  color: white;
+  padding: 5px 10px;
+  margin: 1px;
+  border: black 2px;
+  border-radius: 3px;
+}
+
+.vitoria{
+  background-color: rgb(46,139,87);
+}
+.vitoria:hover{
+  background-color: rgb(8, 83, 8);
+}
+
+.empate{
+  background-color: rgb(218,165,32);
+}
+.empate:hover{
+  background-color: rgb(240,230,140);
+}
+
+.derrota{
+  background-color: rgb(165,42,42);
+}
+.derrota:houver{
+  background-color: rgb(178,34,34);
+}
+
